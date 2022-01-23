@@ -34,17 +34,15 @@ Although you can have a look at the code to get some inspiration if youy are wor
 
 ## ✍️ What we did <a name="What we did"></a>
 
-Step1: File converted from excel to CSV with the import command
-Step2: Getting the name of the csv file
-Step3 : Feeding the file to GPT3 for using as the document to extract information from
+- Step1: File converted from excel to CSV with the import command
+- Step2: Getting the name of the csv file
+- Step3 : Feeding the file to GPT3 for using as the document to extract information from
   - Convert to GPT3 accessible file format : {"text":"...","metadata":"..."}
   - Convert the output into jsonl
   - Create file and uploading for GPT3 to access later
-Step4: Get questions from the file and use find_index() to get the index of that question
-Step5: Find the index of the question from the txt file
-Step6: GPT3 in action to get the MPN
-Step7: Get the required MPN and index by running gpt3
-Step8: Get the MPN and index to be sent to validator
-Step9: Create a excel sheet with MPNs to be downloaded
-
-
+- Step4: Get questions from the file and use find_index() to get the index of that question
+- Step5: Find the index of the question from the txt file
+- Step6: GPT3 in action to get the MPN
+- Step7: Get the required MPN and index by running gpt3
+- Step8: Get the MPN and index to be sent to validator
+- Step9: Create a excel sheet with MPNs to be downloaded
